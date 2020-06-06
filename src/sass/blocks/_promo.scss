@@ -1,55 +1,38 @@
-.promo {
-    min-height: 650px;
-    padding: 21px 0 93px 0;
-    background: url(../img/main.jpg) center (center/cover) no-repeat;
-    &__wrapper {
+.promo  {
+    padding: 58px 0 55px;
+    min-height: 342px;
+    &__ico {
+        width: 102px;
+        height: 102px;
+        border-radius: 100%;
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        margin-top: 90px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $second-color;
     }
-    &__header {
-        color: #ffffff;
-        font-size: 42px;
+    &__subtitle {
+        font-size: 26px;
         font-weight: 700;
-        text-transform: uppercase;
-        line-height: 42px;
-    }
-    &__subheader {
-        margin-top: 17px;
-        color: #ffffff;
-        font-size: 24px;
-        line-height: 24px;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
-    &__icons {
-        margin-top: 65px;
-        width: 425px;
-        display: flex;
-        justify-content: space-between;
-    }
-    &__icon {
-        width: 108px;
         text-align: center;
-        color: #ffffff;
-        font-size: 14px;
-        font-weight: 500;
-        img {
-            display: block;
-            margin: 0 auto;
-            margin-bottom: 20px;
-        }
+        color: $second-color;
+        margin-top: 20px;
+        margin-bottom: 0;
     }
-    &__link {
-        color: #ffffff;
-        font-size: 16px;
-        font-weight: 500;
-        margin-top: 18px;
-        a {
-            color: #ffffff;
-            text-transform: uppercase;
-            text-decoration: underline;
-        }
+    &__descr {
+        margin: 0 auto;
+        max-width: 990px;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+        color: $second-color;
+        margin-top: 22px;
+        text-align: center;
+    }
+    &_agent {
+        background: url(/img/bg_map.jpg) center (center/cover) no-repeat;
+    }
+    &_managers {
+        background: url(/img/bg_managers.jpg) center (center/cover) no-repeat;
     }
 }

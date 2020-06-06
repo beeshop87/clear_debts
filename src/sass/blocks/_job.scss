@@ -1,0 +1,40 @@
+.job {
+    .container {
+        max-width: 1250px;
+    }
+    min-height: 619px;
+    padding: 51px 0 57px;
+    background-color: $bg-color;
+    &__promo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &_item {
+            margin: 37px 15px;
+            max-width: 450px;
+            &-img {
+                max-width: 450px;
+                height: 210px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            &-subtitle {
+                margin-top: 25px;
+                color: black;
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 26px;
+                text-align: center;
+            }
+            &-descr {
+                margin-top: 12px;
+                color: $third-color;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                text-align: center;
+            }
+        } 
+    }
+}

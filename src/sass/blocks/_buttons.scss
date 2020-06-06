@@ -1,27 +1,58 @@
-.button {
-    width: 150px;
-    height: 30px;
-    border-radius: 5px;
+
+.btn {
+    display: block;
+    border: 2px;
+    border-radius: 40px;
     background-color: $main-color;
-    border: none;
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 500;
-    text-transform: uppercase;
-    &_main {
-        margin-top: 67px;
+    color: $second-color;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    width: 230px;
+    height: 55px;
+    &:hover {
+        color: $fourth-color;
+        border: solid 2px $third-color;
+        background: $bg-color;
+
+    }
+    &:focus {
+        outline: none;
+        color: #fff;
+    }
+    &_bord {
+        color: $second-color;
+        background: none;
+        border: 2px solid $main-color;
+        &:hover {
+            color: $fourth-color;
+            border: solid 2px $third-color;
+            background: $bg-color;
+        }
+    }
+    &_cost {
+        margin: 0 auto;
+        margin-top: 21px;
+    }
+    &_border {
+        width: 250px;
+        height: 73px;
+        border: 14px solid;
+        border-color:#fff;
+        margin: 10px auto 0;
+        &:hover {
+            color: $fourth-color;
+            border: solid 14px $second-color;
+            background-color: $bg-color;
+        }
+    }
+    &_quest {
+        width: 180px;
+        height: 45px;
+        margin: 17px auto 0;
+    }
+    &_form {
         width: 300px;
-        height: 50px;
-        font-size: 16px;
-    }
-    &_submit {
-        width: 100%;
-        height: 55px;
-        font-size: 16px;
-    }
-    &_mini {
-        width: 131px;
-        height: 40px;
-        font-size: 14px;
+        margin: 20px auto 0;
     }
 }

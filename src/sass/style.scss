@@ -1,20 +1,38 @@
 @import 'libs/bootstrap-reboot.min';
-@import 'libs/font';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/fonts';
 @import 'libs/slick';
-@import 'libs/animate';
-
-@import 'base/variables';
-
-@import 'base/animations';
 
 * {
-    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .container {
-    max-width: 950px;
+    max-width: 1140px;
     margin: 0 auto;
 }
-@import 'blocks/';
+
+@import '../sass/base/variables';
 
 
-@import '../sass/media';
+@import '../sass/blocks/header';
+@import '../sass/blocks/buttons';
+@import '../sass/blocks/card';
+@import '../sass/blocks/forms';
+@import '../sass/blocks/subtitle-block';
+@import '../sass/blocks/advantages';
+@import '../sass/blocks/job';
+@import '../sass/blocks/promo';
+@import '../sass/blocks/order';
+@import '../sass/blocks/consultation';
+@import '../sass/blocks/schema';
+@import '../sass/blocks/feeds';
+@import '../sass/blocks/quest';
+@import '../sass/blocks/footer';
+@import '../sass/blocks/modal';
+@import '../sass/blocks/pageup';
+@import '../sass/blocks/modificators';
+
+@import 'libs/media';
+
+
+

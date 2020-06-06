@@ -1,0 +1,32 @@
+.quest {
+    padding: 62px 0 79px;
+    min-height: 438px;
+    background: url(/img/bg_header.jpg) center (center/cover) no-repeat;
+    &__form {
+        padding-bottom: 25px;
+        margin: 0 auto;
+        max-width: 896px;
+        min-height: 297px;
+        background-color: rgba($color: #39221a, $alpha: 0.6);
+        &__header {
+            padding: 18px;
+            max-width: 896px;
+            height: 68px;
+            background-color: rgba(#39221a, $alpha: 0.8);
+            &_title {
+                display: block;
+                margin-bottom: 0;
+                font-size: 19px;
+                font-weight: 700;
+                text-transform: uppercase;
+                align-items: center;
+                text-align: center;
+                color: #fff;
+            }
+        }
+        &__wrapper {
+            max-width: 813px;
+            margin: 18px auto;
+        }
+    }
+}
